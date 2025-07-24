@@ -34,17 +34,18 @@ Una aplicación de React Native desarrollada en TypeScript que permite gestionar
 
 ```
 TaskManagerApp/
-├── src/
-│   ├── components/
-│   │   └── AddTaskModal.tsx
-│   ├── screens/
-│   │   ├── HomeScreen.tsx
+├── app/
+│   ├── (tabs)/
+│   │   ├── index.tsx
 │   │   ├── TasksScreen.tsx
 │   │   └── ListScreen.tsx
 │   └── store/
 │       ├── store.ts
 │       ├── tasksSlice.ts
 │       └── listSlice.ts
+
+─── components/
+│   │   └── AddTaskModal.tsx
 ├── __tests__/
 │   ├── components/
 │   │   └── AddTaskModal.test.tsx
